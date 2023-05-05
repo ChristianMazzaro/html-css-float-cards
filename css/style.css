@@ -59,6 +59,13 @@ MAIN
     color: palevioletred;
 }
 
+.email{
+    color: skyblue;
+}
+
+.photo{
+    float: left;
+}
 
 
 /*
@@ -76,8 +83,6 @@ LAYOUT
 
 
 .single-column:nth-of-type(3n+2){
-   /* se qui non aggiungi nulla, scrivi poi nei commenti
-    ogni colonna dove inizia e dove finisce*/
     margin: 0 20px;
 }
 
@@ -88,6 +93,9 @@ LAYOUT
     max-width:100%;
     height:80px;
     font-size:small;
+    padding-top: 15px;
+    padding-left: 100px;
+    text-align: left;
 }
 
 
@@ -96,10 +104,6 @@ LAYOUT
     text-align: center;
     width:calc(100% /3 - 40px);
     padding-top:40px;
-}
-
-.photo{
-    float: left;
 }
 
 
