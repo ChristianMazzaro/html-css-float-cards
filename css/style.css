@@ -1,0 +1,97 @@
+/*
+
+RESET
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+
+GENERAL
+
+*/
+
+body{
+
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+h1{
+    margin-bottom: 50px;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/*
+
+MAIN
+
+*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.pink-text{
+    color: palevioletred;
+}
+
+
+
+/*
+
+LAYOUT
+
+*/
+
+
+.columns{
+    float: left;
+}
+
+.ticket{
+    float: right;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 100px;
+}
+
+
+.single-column{
+    text-align: center;
+    width:100%;
+}
+
+/*
+
+DEBUG
+
+*/
+
+.debug{
+    border: 3px solid red
+}
